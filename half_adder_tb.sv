@@ -5,6 +5,12 @@ module half_adder_tb;
   
   wire c, sum;
   
+  initial 
+  begin
+    $dumpfile("dump.vcd");
+    $dumpvars(1);
+  end
+
   half_adder(
     .A(a),
     .B(b),

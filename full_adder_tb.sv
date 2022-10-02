@@ -5,6 +5,12 @@ logic cin = 0;
 
 wire cout, sum;
 
+initial 
+begin
+    $dumpfile("dump.vcd");
+    $dumpvars(1);
+end
+
 full_adder(
     .A(a),
     .B(b),
