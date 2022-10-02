@@ -25,6 +25,7 @@ module half_adder_tb;
       #100
       a = 1'b1;
       b = 1'b1;
+      #100
     end
   
 endmodule
