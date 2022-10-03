@@ -19,10 +19,10 @@ initial
 begin
     a = 4'b1010;
     b = 4'b1010;
-    #100
+    #100;
     a = 4'b1011;
     b = 4'b1010;
-    #100
+    #100;
 end
 
 endmodule
