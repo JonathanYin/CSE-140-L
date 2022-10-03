@@ -11,7 +11,7 @@ module half_adder_tb;
     $dumpvars(1);
   end
 
-  half_adder(
+  half_adder U1(
     .A(a),
     .B(b),
     .C_o(c),

@@ -1,5 +1,6 @@
 module equality_comparator_tb();
-logic a, b;
+logic a = 0;
+logic b = 0;
 wire out;
 
 initial 
@@ -8,7 +9,7 @@ initial
         $dumpvars(1);
     end
 
-equality_comparator(
+equality_comparator U1(
     .A(a),
     .B(b),
     .OUT(out)

@@ -11,7 +11,7 @@ begin
     $dumpvars(1);
 end
 
-full_adder(
+full_adder U1(
     .A(a),
     .B(b),
     .C_i(cin),

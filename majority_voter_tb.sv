@@ -8,7 +8,7 @@ wire out;
         $dumpvars(1);
     end
 
-majority_voter(
+majority_voter U1(
     .A(a),
     .B(b),
     .C(c),
