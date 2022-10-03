@@ -1,6 +1,6 @@
-module equality_comparator_tb();
-logic a = 0;
-logic b = 0;
+module equality_comparator_tb #(parameter N = 4) ();
+logic [N-1:0] a = 0;
+logic [N-1:0] b = 0;
 wire out;
 
 initial 
@@ -20,9 +20,9 @@ begin
     a = 4'b1010;
     b = 4'b1010;
     #100;
-    a = 4'b1011;
-    b = 4'b1010;
-    #100;
+    // a = 4'b1011;
+    // b = 4'b1010;
+    // #100;
 end
 
 endmodule
